@@ -10,3 +10,7 @@ cat >> /etc/fstab << EOF
 EOF
 df -h
 echo "if you can see the mounted directories, then it's well done"
+
+echo "pulling docker image from Docker hub"
+docker pull yaozhiwei/mpinode:1.0
+
