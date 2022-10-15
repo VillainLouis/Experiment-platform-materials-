@@ -1,0 +1,382 @@
+# Read more about SSH config files: https://linux.die.net/man/5/ssh_config
+
+# my-virtual-machines
+Host my-ubuntu22.04
+    HostName 192.168.224.129
+    Port 22
+    User villain
+
+
+
+
+Host 402_jliu
+    HostName 172.16.62.107
+    Port 8402
+    User jliu
+
+Host 403_jliu
+    HostName 172.16.62.101
+    Port 8403
+    User jliu
+
+
+Host 404_jliu
+    HostName 47.92.80.237
+    Port 6404
+    User jliu
+
+Host 406_docker
+    HostName 172.16.63.58
+    Port 22
+    User docker
+
+Host 406_jliu
+    HostName 172.16.63.58
+    Port 22
+    User jliu
+
+
+Host 407_docker
+    HostName 172.16.63.202
+    Port 22
+    User docker
+
+Host my_ubuntu
+    HostName 192.168.112.128
+    Port 22
+    User villain
+
+# nx nodes
+
+Host nx01
+    HostName 192.168.1.41
+    Port 22
+    User nx01
+
+Host nx02
+    HostName 192.168.1.42
+    Port 22
+    User nx02
+
+Host nx03
+    HostName 192.168.1.43
+    Port 22
+    User nx03
+
+Host nx04
+    HostName 192.168.1.44
+    Port 22
+    User nx04
+    
+Host nx05
+    HostName 192.168.1.45
+    Port 22
+    User nx05
+
+Host nx06
+    HostName 192.168.1.46
+    Port 22
+    User nx06
+
+Host nx07
+    HostName 192.168.1.47
+    Port 22
+    User nx07
+
+Host nx08
+    HostName 192.168.1.48
+    Port 22
+    User nx08
+
+Host nx09
+    HostName 192.168.1.49
+    Port 22
+    User nx09
+
+Host nx10
+    HostName 192.168.1.50
+    Port 22
+    User nx10
+
+Host nx11
+    HostName 192.168.1.51
+    Port 22
+    User nx11
+
+Host nx12
+    HostName 192.168.1.52
+    Port 22
+    User nx12
+
+Host nx13
+    HostName 192.168.1.53
+    Port 22
+    User nx13
+
+Host nx14
+    HostName 192.168.1.54
+    Port 22
+    User nx14
+
+Host nx15
+    HostName 192.168.1.55
+    Port 22
+    User nx15
+
+Host nx16
+    HostName 192.168.1.56
+    Port 22
+    User nx16
+
+Host nx17
+    HostName 192.168.1.57
+    Port 22
+    User nx17
+
+Host nx18
+    HostName 192.168.1.58
+    Port 22
+    User nx18
+
+Host nx19
+    HostName 192.168.1.59
+    Port 22
+    User nx19
+
+Host nx20
+    HostName 192.168.1.60
+    Port 22
+    User nx20
+
+# #############################
+Host nx31
+    HostName 192.168.1.21
+    Port 22
+    User nx31
+
+Host nx32
+    HostName 192.168.1.22
+    Port 22
+    User nx32
+
+Host nx33
+    HostName 192.168.1.23
+    Port 22
+    User nx33
+
+Host nx34
+    HostName 192.168.1.24
+    Port 22
+    User nx34
+
+
+Host nx35
+    HostName 192.168.1.25
+    Port 22
+    User nx35
+
+Host nx36
+    HostName 192.168.1.26
+    Port 22
+    User nx36
+
+
+Host nx37
+    HostName 192.168.1.27
+    Port 22
+    User nx37
+
+Host nx38
+    HostName 192.168.1.28
+    Port 22
+    User nx38
+
+Host nx39
+    HostName 192.168.1.29
+    Port 22
+    User nx39
+
+
+Host nx40
+    HostName 192.168.1.30
+    Port 22
+    User nx40
+
+
+
+# egde
+Host edge01
+    HostName 192.168.1.11
+    Port 22
+    User edge01
+
+Host edge02
+    HostName 192.168.1.12
+    Port 22
+    User edge02
+
+Host edge03
+    HostName 192.168.1.13
+    Port 22
+    User edge03
+
+Host edge04
+    HostName 192.168.1.14
+    Port 22
+    User edge04
+
+Host edge05
+    HostName 192.168.1.15
+    Port 22
+    User edge05
+
+Host edge06
+    HostName 192.168.1.16
+    Port 22
+    User edge06
+
+Host edge07
+    HostName 192.168.1.17
+    Port 22
+    User edge07
+
+Host edge08
+    HostName 192.168.1.18
+    Port 22
+    User edge08
+
+Host edge09
+    HostName 192.168.1.19
+    Port 22
+    User edge09
+
+Host edge10
+    HostName 192.168.1.20
+    Port 22
+    User edge10
+
+Host edge11
+    HostName 192.168.1.21
+    Port 22
+    User edge11
+
+Host edge12
+    HostName 192.168.1.22
+    Port 22
+    User edge12
+
+Host edge13
+    HostName 192.168.1.23
+    Port 22
+    User edge13
+
+Host edge14
+    HostName 192.168.1.24
+    Port 22
+    User edge14
+
+Host edge15
+    HostName 192.168.1.25
+    Port 22
+    User edge15
+
+Host edge16
+    HostName 192.168.1.26
+    Port 22
+    User edge16
+
+Host edge17
+    HostName 192.168.1.27
+    Port 22
+    User edge17
+
+Host edge18
+    HostName 192.168.1.28
+    Port 22
+    User edge18
+
+Host edge19
+    HostName 192.168.1.29
+    Port 22
+    User edge19
+
+Host edge20
+    HostName 192.168.1.30
+    Port 22
+    User edge20
+
+Host edge21
+    HostName 192.168.1.31
+    Port 22
+    User edge21
+
+Host edge22
+    HostName 192.168.1.32
+    Port 22
+    User edge22
+
+Host edge23
+    HostName 192.168.1.33
+    Port 22
+    User edge23
+
+Host edge24
+    HostName 192.168.1.34
+    Port 22
+    User edge24
+
+Host edge25
+    HostName 192.168.1.35
+    Port 22
+    User edge25
+
+
+# agx
+Host agx01
+    HostName 192.168.1.61
+    Port 22
+    User agx01
+
+Host agx02
+    HostName 192.168.1.62
+    Port 22
+    User agx02
+
+Host agx03
+    HostName 192.168.1.63
+    Port 22
+    User agx03
+
+Host agx04
+    HostName 192.168.1.64
+    Port 22
+    User agx04
+
+Host agx05
+    HostName 192.168.1.65
+    Port 22
+    User agx05
+
+Host agx06
+    HostName 192.168.1.66
+    Port 22
+    User agx06
+
+Host agx07
+    HostName 192.168.1.67
+    Port 22
+    User agx07
+
+Host agx08
+    HostName 192.168.1.68
+    Port 22
+    User agx08
+
+Host agx09
+    HostName 192.168.1.69
+    Port 22
+    User agx09
+
+    
+
+
