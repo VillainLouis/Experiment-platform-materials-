@@ -4,3 +4,4 @@ Script files
 
 - `nfs.sh` is used just for Jetson devices.
 - `config.ssh` is servers and corresponding IP address.
+- `daemon.json` for Jetson to run l4t container.
