@@ -10,7 +10,7 @@ Host my-ubuntu22.04
 
 
 Host 402_jliu
-    HostName 172.16.62.107
+    HostName 172.16.63.35
     Port 8402
     User jliu
 
@@ -25,21 +25,31 @@ Host 404_jliu
     Port 6404
     User jliu
 
+Host 405_jliu
+    HostName 172.16.50.73
+    Port 8405
+    User jliu
+
 Host 406_docker
-    HostName 172.16.63.58
+    HostName 172.16.63.26
     Port 22
     User docker
 
 Host 406_jliu
-    HostName 172.16.63.58
+    HostName 172.16.63.42
     Port 22
     User jliu
 
 
 Host 407_docker
-    HostName 172.16.63.202
-    Port 22
+    HostName 172.16.63.50
+    Port 8407
     User docker
+
+Host 407_jliu
+    HostName 172.16.63.50
+    Port 8407
+    User jliu
 
 Host my_ubuntu
     HostName 192.168.112.128
@@ -333,7 +343,7 @@ Host edge25
 
 # agx
 Host agx01
-    HostName 192.168.1.61
+    HostName 192.168.1.109
     Port 22
     User agx01
 
